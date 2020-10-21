@@ -9,9 +9,10 @@ until answer == ""
     list << answer
 end
 
-puts list.sort()
+# puts list.sort()
+print list.sort().join(" ")
 
-# add in one line an with commas
+
 
 
 
